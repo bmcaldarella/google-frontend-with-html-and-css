@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif ;
+  
+   
+}
+
+
+.navegacion{
+    text-align: right;
+    margin: 20px;
+   
+}
+
+ul li{
+    display: inline;
+    padding: 9px;
+   
+}
+
+.lista{
+ text-decoration: none;
+ color: black;
+ font-size: 13px;
+ font-size: small;
+ margin-bottom: 24px;
+}
+
+.lista:hover{
+    border-bottom: 1px solid black;
+}
+
+.menu{
+    width: 20px;
+
+}
+
+.menu:hover{
+   box-shadow: 0px 10px 50px rgb(1, 1, 1);
+
+}
+#google{
+    width: 280px;
+    height: 400px;
+    object-fit: contain;
+    object-position: center bottom;
+    margin-top: -200px;
+    
+}
+.container{
+    text-align: center;
+    padding:0px;
+    display: flexbox;
+
+
+}
+
+.box{
+    width: 100%;
+    top: 50px;
+    left: 50%;
+    
+}
+
+
+input.src{
+    text-align: left;
+    padding: 9px 10px 9px 32px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid rgb(150, 150, 150);
+    width:500px;
+    border-color: rgba(121, 124, 124, 0.161);
+
+    display: flexbox;
+   
+ 
+    
+}
+
+input.src:hover{
+   box-shadow:0 0 5px 1px rgba(98, 97, 97, 0.168);
+ border: 2px solid rgba(255, 255, 255, 0.709);
+
+
+
+}
+
+
+#icono{
+    position:relative;
+    top: -30px;
+    right: 250px;
+    color: rgb(181, 181, 181);
+    display: flexbox;
+}
+
+#musica{
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    left: 24;
+    display: flexbox;
+}
+
+.formulario{
+    text-align: center;
+    position:static;
+}
+
+
+.boton{
+    margin:0 auto;
+    padding: 10px 17px;
+    color:rgb(83, 83, 83);
+    background-color:rgb(248,249,250) ;
+    border: none;
+    border-radius: 4px;
+   
+
+
+
+}
+
+.boton:hover{
+   
+
+    box-shadow:0 0 1px 1px rgba(98, 97, 97, 0.195);
+ border: 1px solid rgba(255, 255, 255, 0.167);
+
+    
+
+ 
+}
+
+.idiomas{
+    display: block;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(75, 76, 81);
+   
+    
+    
+}
+.lengua{
+    color: rgb(24,14,164);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.lengua:hover{
+    border-bottom: 1px solid;
+}
+.footer{
+    
+    background-color:rgb(242, 242, 242);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 142px;
+    display:flexbox;
+   
+   
+}
+.pais{
+    font-size: 15px;
+    margin-left: 25px;
+    color:rgb(113,117,121) ;
+   padding: 15px;
+}
+.fecha{
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(113,117,121);
+
+}
+
+#hoja{
+    height: 14px;
+  
+}
+
+.texto{
+    text-decoration: none;
+    color:rgb(113,117,121);
+    margin-bottom: -10px;
+}
+
+.texto:hover{
+    border-bottom: 1px solid rgb(113,117,121);
+}
+
+.container{
+    position: relative;
+    top: 70px;
+    
+}
+
+.enviar{
+    position: relative;
+   bottom: 35px;
+}
+
+
+@media screen and (max-width:600px){
+
+  
+
+input.src{
+    text-align: left;
+    padding: 9px 10px 9px 32px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid rgb(150, 150, 150);
+    width:400px;
+    border-color: rgba(121, 124, 124, 0.161);
+
+    display: flexbox;
+   
+ 
+    
+}
+
+input.src:hover{
+   box-shadow:0 0 5px 1px rgba(98, 97, 97, 0.168);
+ border: 2px solid rgba(255, 255, 255, 0.709);
+
+
+
+}
+
+
+#icono{
+    position:relative;
+    top: -30px;
+    right: 200px;
+    color: rgb(181, 181, 181);
+    display: flexbox;
+}
+
+#musica{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    left: 24;
+    display: flexbox;
+}
+}
+

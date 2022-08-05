@@ -1,0 +1,272 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: arial,sans-serif ;
+}
+
+.encabezado{
+   
+    float: right;
+    margin: 10px 15px;
+    padding: 20px;
+    
+
+}
+.hipervinculo{
+   text-decoration: none;
+   color: black;
+   padding: 3px;
+   font-size: 14px;
+}
+
+.hipervinculo:hover{
+    border-bottom: 1px solid black;
+}
+
+.logo-google{
+    
+    height: 500px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.logo{
+    display: flex;
+    width: 280px;
+    right: -90px;
+    
+}
+
+.google{
+    
+    margin-left: 240px;
+}
+
+.imagen-logo{
+   
+    text-align: center;
+    margin-top: 70px;
+    margin-left: -50px;
+    
+}
+
+.imagenes{
+    font-size: 15px;
+    color: blue;
+}
+
+form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+input.src{
+    text-align: left;
+    padding: 9px 10px 9px 32px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid rgb(150, 150, 150);
+    width:500px;
+    border-color: rgba(121, 124, 124, 0.161);
+
+    display: flexbox;
+   margin-right: 100px;
+ 
+    
+}
+
+input.src:hover{
+   box-shadow:0 0 5px 1px rgba(98, 97, 97, 0.168);
+ border: 2px solid rgba(255, 255, 255, 0.709);
+
+
+
+}
+
+.camara{
+    position: relative;
+    left: -200px;
+    top:1px;
+    color: rgba(104, 104, 104, 0.623);
+    
+   
+  
+
+}
+
+.sonido{
+    position: relative;
+    left: -190px;
+    top:1px;
+
+}
+
+.lupa{
+    position: relative;
+    left: -180px;
+    top:1px;
+    color:rgb(83, 131, 236);
+}
+
+.lupa1{
+    position: relative;
+    left:-680px;
+    bottom: 0px;
+    color:rgb(163, 165, 170);
+   
+}
+#icono{
+    width:10px;
+}
+
+
+
+.footer{
+    
+    background-color:rgb(242, 242, 242);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 142px;
+    display:flexbox;
+   
+   
+}
+.pais{
+    font-size: 15px;
+    margin-left: 25px;
+    color:rgb(113,117,121) ;
+   padding: 15px;
+}
+.fecha{
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(113,117,121);
+
+}
+
+#hoja{
+    height: 14px;
+  
+}
+
+.texto{
+    text-decoration: none;
+    color:rgb(113,117,121);
+    margin-bottom: -10px;
+}
+
+.texto:hover{
+    border-bottom: 1px solid rgb(113,117,121);
+}
+
+
+.search_buttons{
+    
+    margin-bottom: -120px;
+    margin-left: -560px;
+
+    }
+
+    .boton1{
+padding: 9px;
+margin-right: 6px;
+border-radius: 3px;
+background-color: rgba(164, 164, 164, 0.15);
+border-color: rgba(0, 0, 0, 0.005);
+    }
+    .boton1:hover{
+        border: 1px solid rgba(168, 166, 166, 0.454);
+    }
+
+   
+@media screen and (max-width:600px){
+
+
+
+    .box{
+        
+    position: relative;
+    width: 100%;
+    top: 50%;
+    left:-45px;
+    margin-right: 300px;
+     
+        
+    }
+
+input.src{
+    text-align: left;
+    padding: 9px 10px 9px 32px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid rgb(150, 150, 150);
+    width:400px;
+    border-color: rgba(121, 124, 124, 0.161);
+
+    display: flexbox;
+   
+ 
+    
+}
+
+.lupa1{
+    position: relative;
+    left:-580px;
+    bottom: 0px;
+    color:rgb(163, 165, 170);
+   
+}
+#icono{
+    width:10px;
+}
+.search_buttons{
+    
+    margin-bottom: -150px;
+    margin-left: -500px;
+ 
+
+    }
+
+    .boton1{
+padding: 9px;
+margin-right: 6px;
+border-radius: 3px;
+background-color: rgba(164, 164, 164, 0.15);
+border-color: rgba(0, 0, 0, 0.005);
+    }
+    .boton1:hover{
+        border: 1px solid rgba(168, 166, 166, 0.454);
+    }
+
+    .google{
+    
+        margin-left: 120px;
+    }
+    
+    .imagen-logo{
+       
+        text-align: center;
+        margin-top: 70px;
+        margin-left: -50px;
+        
+    }
+}
